@@ -1,11 +1,16 @@
 
+import { createContext, useReducer } from 'react';
 import './App.css';
+import Counter from './components/counter/Counter';
+import From from './components/From/From';
 
 function App() {
-  return (
-    <div className="App">
-      <button className='py-2 px-8 bg-slate-600 rounded outline-none bod'>Increment</button>
-    </div>
+  
+  return (     
+      <div className="mt-24  overflow-x-hidden">
+        {/* <Counter /> */}
+        <From />
+      </div>
   );
 }
 
